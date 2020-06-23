@@ -16,7 +16,7 @@ comments:
   transforms:
     email: md5
   reCaptcha:
-    enabled: true
+    enabled: false
     # the siteKey is used as-is (no encryption)
     siteKey: 6LevkKgZAAAAAAMfNQ3tOw6-9eFE-F7vhyHwCWcx
     # the secret is the encrypted blob you got back from the encrypt call
