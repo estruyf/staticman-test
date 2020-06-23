@@ -1,0 +1,23 @@
+comments:
+  allowedFields: ["name", "email", "rating", "body"]
+  allowedOrigins: ["localhost", "staticman-pyod.herokuapp.com"]
+  branch: "master"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "iso8601"
+  format: "json"
+  moderation: true
+  name: "#PYOD - Pimp Your Own Device"
+  path: "{options.slug}"
+  filename: "review-{@timestamp}"
+  requiredFields: ["name", "body"]
+  transforms:
+    email: md5
+  reCaptcha:
+    enabled: true
+    # the siteKey is used as-is (no encryption)
+    siteKey: 6LevkKgZAAAAAAMfNQ3tOw6-9eFE-F7vhyHwCWcx
+    # the secret is the encrypted blob you got back from the encrypt call
+    secret: 6LevkKgZAAAAAHyeRirMzKDZ60K9xnNHQM6GyZr0
