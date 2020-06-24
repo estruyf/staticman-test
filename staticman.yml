@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["name", "email", "rating", "body"]
+  allowedFields: ["name", "email", "rating", "title", "body"]
   allowedOrigins: ["localhost:1313", "staticman-pyod.herokuapp.com"]
   branch: "master"
   generatedFields:
@@ -10,7 +10,7 @@ comments:
   name: "#PYOD - Pimp Your Own Device"
   path: "reviews/{options.env}/{options.slug}"
   filename: "review-{@timestamp}"
-  requiredFields: ["name", "email", "rating", "body"]
+  requiredFields: ["name", "email", "rating", "title", "body"]
   transforms:
     email: md5
   reCaptcha:
