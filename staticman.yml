@@ -16,6 +16,6 @@ comments:
   reCaptcha:
     enabled: false
     # the siteKey is used as-is (no encryption)
-    siteKey: 
+    siteKey: ""
     # the secret is the encrypted blob you got back from the encrypt call
-    secret: 
+    secret: ""
