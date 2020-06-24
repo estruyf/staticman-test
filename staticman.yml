@@ -8,7 +8,7 @@ comments:
   format: "json"
   moderation: false
   name: "#PYOD - Pimp Your Own Device"
-  path: "reviews/{options.absUrl}"
+  path: "reviews/{options.slug}"
   filename: "review-{@timestamp}"
   requiredFields: ["name", "body"]
   transforms:
