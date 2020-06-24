@@ -18,4 +18,4 @@ jobs:
     steps:
     - name: Start the build
       run: |
-        curl ${WEBHOOK_URL}
+        curl ${{secrets.WEBHOOK_URL}}
