@@ -6,9 +6,9 @@ comments:
     date:
       type: date
   format: "json"
-  moderation: true
+  moderation: false
   name: "#PYOD - Pimp Your Own Device"
-  path: "reviews/{options.slug}"
+  path: "reviews/{options.absUrl}"
   filename: "review-{@timestamp}"
   requiredFields: ["name", "body"]
   transforms:
