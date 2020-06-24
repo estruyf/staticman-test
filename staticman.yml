@@ -10,7 +10,7 @@ comments:
   name: "#PYOD - Pimp Your Own Device"
   path: "reviews/{options.env}/{options.slug}"
   filename: "review-{@timestamp}"
-  requiredFields: ["name", "email", "rating", "title", "body"]
+  requiredFields: ["name", "email", "rating", "body"]
   transforms:
     email: md5
   reCaptcha:
