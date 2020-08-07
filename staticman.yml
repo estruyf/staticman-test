@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["name", "email", "rating", "title", "body"]
+  allowedFields: ["name", "email", "rating", "title", "body", "image"]
   allowedOrigins: ["localhost:1313", "staticman-pyod.herokuapp.com"]
   branch: "master"
   generatedFields:
